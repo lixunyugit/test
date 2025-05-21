@@ -16,3 +16,16 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/luci-app-modem
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/luci-app-cpe
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/luci-app-sms-tool
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/luci-app-hypermodem
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/luci-app-spdmodem
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/luci-app-usbmodem
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/quectel_QMI_WWAN
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/quectel_cm_5G
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/quectel_MHI
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/rooter
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/sendat
+git clone https://github.com/Siriling/5G-Modem-Support.git package/custom/rooter
